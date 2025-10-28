@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database and uploads
+backend/data/*.db
+backend/data/*.db-shm
+backend/data/*.db-wal
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Android
+android-app/.gradle/
+android-app/local.properties
+android-app/build/
+android-app/.idea/
+android-app/*.iml
+android-app/.DS_Store
+android-app/captures/
+android-app/.externalNativeBuild/
+android-app/.cxx/
+
+# Logs
+*.log
+logs/
